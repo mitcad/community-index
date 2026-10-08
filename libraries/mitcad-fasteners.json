@@ -1,0 +1,81 @@
+{
+  "format": "mitcad-index-entry",
+  "version": 1,
+  "id": "mitcad-fasteners",
+  "name": "Mitcad metric fasteners",
+  "description": "ISO metric screws, nuts and washers, M3 to M12, simplified for assemblies.",
+  "url": "https://github.com/mitcad/fasteners.git",
+  "license": "CC0-1.0",
+  "maintainers": [
+    "Mitcad contributors"
+  ],
+  "tags": [
+    "Screws",
+    "Nuts",
+    "Washers"
+  ],
+  "components": [
+    {
+      "id": "iso4762",
+      "name": "Hexagon socket head cap screw",
+      "standard": "ISO 4762",
+      "tags": [
+        "socket head",
+        "cap screw",
+        "SHCS",
+        "DIN 912",
+        "allen"
+      ]
+    },
+    {
+      "id": "iso4017",
+      "name": "Hexagon head screw, thread to the head",
+      "standard": "ISO 4017",
+      "tags": [
+        "hex head",
+        "hex bolt",
+        "set screw",
+        "DIN 933"
+      ]
+    },
+    {
+      "id": "iso10642",
+      "name": "Hexagon socket countersunk head screw",
+      "standard": "ISO 10642",
+      "tags": [
+        "countersunk",
+        "flat head",
+        "DIN 7991",
+        "socket"
+      ]
+    },
+    {
+      "id": "iso4032",
+      "name": "Hexagon nut",
+      "standard": "ISO 4032",
+      "tags": [
+        "hex nut",
+        "DIN 934",
+        "nut"
+      ]
+    },
+    {
+      "id": "iso7089",
+      "name": "Plain washer, normal series",
+      "standard": "ISO 7089",
+      "tags": [
+        "washer",
+        "flat washer",
+        "DIN 125"
+      ]
+    }
+  ],
+  "reviewed": [
+    {
+      "rev": "c338211b70b99e8ae4f1e47b31447e5eda6fba86",
+      "label": "v1.0.0",
+      "date": "2026-10-08"
+    }
+  ],
+  "homepage": "https://github.com/mitcad/fasteners"
+}
